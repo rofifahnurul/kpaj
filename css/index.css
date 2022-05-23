@@ -1,3 +1,6 @@
+    section{
+        font-family: 'Poppins', sans-serif;
+    }
     header{
         z-index: 1;
     }
@@ -89,7 +92,7 @@
     .container p {
         padding: 15px;
         text-align: justify;
-        font-size: 20px;
+        font-size: 25rem;
     }
     
     .display-4 {
@@ -176,4 +179,29 @@
     height: 2px;
     background: #ffffff;
     margin: 7px auto;
+}
+#tagline{
+    margin: auto 5%;
+    padding: auto 5%;
+}
+#tagline p{
+    font-size: 20px;
+}
+
+.card{
+    color: #102c37;
+}
+hr{
+    width: max-content;
+    border: 100px solid red;
+    size: 40px;
+}
+.card:hover{ 
+    background-color:rgb(61, 61, 90);
+    color: white;
+    
+}
+
+.title{
+    color: #5d9db9;
 }
