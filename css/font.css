@@ -13,12 +13,6 @@ footer p {
     margin-top:100px;
    
 }
-.carousel-content{
-    margin: auto;
-}
-.centered { 
-    margin: auto; 
-}
 
 
 
@@ -102,10 +96,10 @@ h2 {
         justify-content: center;
     }
     
-    .container {
+    .container p {
         padding: 15px;
         text-align: justify;
-        font-size: 16px;
+        font-size: 25rem;
     }
     
     .display-4 {
