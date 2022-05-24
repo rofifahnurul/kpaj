@@ -187,6 +187,10 @@
 #tagline p{
     font-size: 20px;
 }
+#logo{
+    width: 64px;
+    height: 64px;
+}
 
 .card{
     color: #102c37;
@@ -197,9 +201,13 @@ hr{
     size: 40px;
 }
 .card:hover{ 
-    background-color:rgb(61, 61, 90);
+    background-color:#5d9db9;
     color: white;
     
+}
+.text-card:hover{
+    background-color:#5d9db9;
+    color: white;
 }
 
 .title{
