@@ -13,9 +13,79 @@ footer p {
 p{
     font-size: 16px;
 }
+section{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+font-family: 'Poppins', sans-serif;
+}
+
+p{
+font-family: 'Poppins', sans-serif;
+}
+
+li{
+font-family: 'Poppins', sans-serif;
+}
+
+h4 {
+text-align: center;
+}
+
+h2 {
+margin-top: 30px;
+text-align: center;
+}
+.navbar {
+    background-color:#5d9db9;
+    color: white;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+.nav-link {
+    position: relative;
+    padding: 0;
+    color: aliceblue;
+}
+
+.nav-link::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    background-color: rgb(235, 214, 214);
+    width: 100%;
+    height: 2px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 650ms;
+}
+
+.nav-link:hover::before {
+    transform: scaleX(1)
+}
 .page-content{
     margin-top:100px;
    
+}
+.icon{
+    width: 96px;
+    height: 96px;
+    margin: auto;
+}
+#logo{
+    width: 64px;
+    height: 64px;
+}
+.card-button{
+    border-radius: 20%;
 }
 
 
