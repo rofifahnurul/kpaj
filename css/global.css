@@ -1,44 +1,58 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
-    
 }
-footer{
-    border-top:1px solid #e4e4e4;
+
+footer {
+    border-top: 1px solid #e4e4e4;
     margin-top: 150px;
+    background-color: #5d9db9;
 }
 
 footer p {
     color: #979797;
 }
-p{
+
+p {
     font-size: 16px;
+    color: #5d9db9
 }
-section{
+
+section {
+    font-family: 'Poppins', sans-serif;
+    color: #5d9db9
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Poppins', sans-serif;
+    color: #5d9db9
+}
+
+p {
     font-family: 'Poppins', sans-serif;
 }
 
-h1,h2,h3,h4,h5{
-font-family: 'Poppins', sans-serif;
-}
-
-p{
-font-family: 'Poppins', sans-serif;
-}
-
-li{
-font-family: 'Poppins', sans-serif;
+li {
+    font-family: 'Poppins', sans-serif;
+    color: #5d9db9
 }
 
 h4 {
-text-align: center;
+    text-align: center;
+    color: #5d9db9
 }
 
 h2 {
-margin-top: 30px;
-text-align: center;
+    margin-top: 30px;
+    text-align: center;
+    color: #285062
 }
+
 .navbar {
-    background-color:#5d9db9;
+    background-color: #5d9db9;
     color: white;
 }
 
@@ -49,6 +63,7 @@ text-align: center;
 .nav-item:last-child {
     margin-right: 0;
 }
+
 .nav-link {
     position: relative;
     padding: 0;
@@ -71,22 +86,31 @@ text-align: center;
 .nav-link:hover::before {
     transform: scaleX(1)
 }
-.page-content{
-    margin-top:100px;
-   
+
+.page-content {
+    margin-top: 100px;
 }
-.icon{
+
+.icon {
     width: 96px;
     height: 96px;
     margin: auto;
 }
-#logo{
+
+#logo {
     width: 64px;
     height: 64px;
 }
-.card-button{
+
+.nav-text {
+    color: white
+}
+
+.card-button {
     border-radius: 20%;
 }
 
-
-
+.footer-copyright {
+    background-color: #5d9db9;
+    color: white;
+}

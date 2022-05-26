@@ -1,48 +1,53 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
-footer{
-    border-top:1px solid #e4e4e4;
+
+footer {
+    border-top: 1px solid #e4e4e4;
     margin-top: 150px;
 }
 
 footer p {
     color: #979797;
 }
-.page-content{
-    margin-top:100px;
-   
+
+.page-content {
+    margin-top: 100px;
 }
-.carousel-content{
+
+.carousel-content {
     margin: auto;
 }
-.centered { 
-    margin: auto; 
-}
-.card{
-    border-radius: 100%;
+
+.centered {
+    margin: auto;
 }
 
-
-
-section{
-        font-family: 'Poppins', sans-serif;
-    }
-header{
-        z-index: 1;
+section {
+    font-family: 'Poppins', sans-serif;
 }
-h5{
+
+header {
+    z-index: 1;
+}
+
+h5 {
     color: white;
 }
-h1,h2,h3,h4,h5{
+
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Poppins', sans-serif;
 }
 
-p{
+p {
     font-family: 'Poppins', sans-serif;
 }
 
-li{
+li {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -55,142 +60,136 @@ h2 {
     text-align: center;
 }
 
-.carousel-index{
-        z-index: 1;
-    }
+.carousel-index {
+    z-index: 1;
+}
 
-    
-    .container img {
-        height: 80px;
-    }
-    
-    .container {
-        display: block;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .container {
-        padding: 15px;
-        text-align: justify;
-        font-size: 16px;
-    }
-    
-    .display-4 {
-        text-align: left;
-        margin-top: 300px;
-        color: white;
-        font-size: 30px;
-    }
-    
-    .row img {
-        height: 50%;
-    }
-    
+.container img {
+    height: 80px;
+}
 
-    
-    .footer-copyright {
-        background-color: rgb(36, 35, 88);
-        color: white;
-    }
+.container {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
 
-    .jumbotron {
-        background: url("../img/direktorat.jpg")center no-repeat;
-        background-size: cover;
-        position: relative;
-        height: 700px;
-        margin-top: -120px;
-    }
-    
-    .row {
-        text-align: center;
-    }
-    
-    .youtube {
-        margin-left: 170px;
-        display: block;
-        align-items: center;
-        justify-content: center;
-    }
+.container {
+    padding: 15px;
+    text-align: justify;
+    font-size: 16px;
+}
 
-    #logo1{
-        height : 5px;
-    }
-    #carousel{
-        z-index: 1;
-        position: relative;
-    }
-  
-    .carousel-inner{
-        position: relative;
-        width: 100%;
-        overflow: hidden;
-    }
-    .carousel-content {
-        position: absolute;
-        bottom: 5%;
-        left: 5%;
-        z-index: 20;
-        color: white;
-        margin: a;
- 
-      }
-    #info-button{
-        width: 10em;
-        position: absolute;
-        left: 5%;
-        z-index: 20;
-      
-        border-radius: 12px;
-        background-color: white;
-        padding: 30px;
-    }
-    a{
-        text-decoration: none;
-    }
-  
-   #info-button h3:hover::before {
-       color: black;
-        transform: scaleX(1)
-    }
-    #info-button h3::after{
-        content: "";
+.display-4 {
+    text-align: left;
+    margin-top: 300px;
+    color: white;
+    font-size: 30px;
+}
+
+.row img {
+    height: 50%;
+}
+
+.jumbotron {
+    background: url("../img/direktorat.jpg")center no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 700px;
+    margin-top: -120px;
+}
+
+.row {
+    text-align: center;
+}
+
+.youtube {
+    margin-left: 170px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo1 {
+    height: 5px;
+}
+
+#carousel {
+    z-index: 1;
+    position: relative;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-content {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    z-index: 20;
+    color: white;
+    margin: a;
+}
+
+#info-button {
+    width: 10em;
+    position: absolute;
+    left: 5%;
+    z-index: 20;
+    border-radius: 12px;
+    background-color: white;
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#info-button h3:hover::before {
+    color: black;
+    transform: scaleX(1)
+}
+
+#info-button h3::after {
+    content: "";
     display: block;
     width: 70px;
     height: 2px;
     background: #ffffff;
     margin: 7px auto;
 }
-#tagline{
+
+#tagline {
     margin: auto 5%;
     padding: auto 5%;
 }
-#tagline p{
+
+#tagline p {
     font-size: 20px;
 }
-#logo{
+
+#logo {
     width: 64px;
     height: 64px;
 }
 
-.card{
+.card {
     color: #102c37;
 }
-hr{
+
+hr {
     width: max-content;
     border: 100px solid red;
     size: 40px;
 }
-.card:hover{ 
-    background-color:#5d9db9;
-    color: white;
-    
-}
-.text-card:hover{
-    background-color:#5d9db9;
-    color: white;
-}
 
-.title{
+.card:hover {}
+
+.text-card:hover {}
+
+.title {
     color: #5d9db9;
 }
