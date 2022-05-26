@@ -14,12 +14,13 @@ footer p {
 
 p {
     font-size: 16px;
-    color: #5d9db9
+    color: #728993;
+    line-height: 1.5rem;
 }
 
 section {
     font-family: 'Poppins', sans-serif;
-    color: #5d9db9
+    color: #5d9db9;
 }
 
 h1,
@@ -91,11 +92,7 @@ h2 {
     margin-top: 100px;
 }
 
-.icon {
-    width: 96px;
-    height: 96px;
-    margin: auto;
-}
+.icon {}
 
 #logo {
     width: 64px;
